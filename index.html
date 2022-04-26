@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./bootstrap/css/bootstrap.css">
+  <link rel="stylesheet" href="./css/main.css">
+  <title>Pizza</title>
+</head>
+<body>
+  <div class="container-xl">
+
+    <!-- //////SITE HEADING//// -->
+
+    <h2 class="text-center pt-5 fw-bold text-success ">Pitsa buyurtma berish</h2>
+    
+    <div class="row"> 
+
+  <div class="col-7 pt-4 row-left">
+   
+    <!--//////////// SITE FORM /////////-->
+
+    <form id="form-id" action="https://echo.htmlacademy.ru" method="post">
+
+  <fieldset>
+
+    <legend class="fw-bold text-success ">Noni qanday bo'sin?</legend>
+    <div class="piz-type">
+    <select class="js-select rounded p-2" ></select>
+  </div>
+
+  </fieldset>
+
+  <fieldset>
+    
+    <legend class="fw-bold pt-4 text-success ">Kattaligi</legend>
+    <div class="js-radios mt-2">
+
+    </div>
+
+  </fieldset>
+
+  <fieldset class="mt-4">
+
+    <legend class="fw-bold mb-2 text-success ">Ustiga nima solaylik?</legend>
+    <div class="js-checkboxes d-flex flex-wrap">
+
+    </div>
+
+  </fieldset>
+
+  <fieldset class="mt-4">
+    <legend class="fw-bold mb-2">Qo`shimchalar</legend>
+    <div class="js-checkboxes-adder">
+
+    </div>
+
+  </fieldset>
+
+    </form>
+  </div>
+
+    <div class="col-5 pt-4 order-box">
+
+      <p class="fw-bold">Non: <span class="js-bread-name fw-normal"></span></p>
+      <p class="fw-bold">Kattaligi: <span class="js-pizza-size fw-normal">30sm</span></p>
+      <p class="fw-bold mb-0">Ustida:</p>
+      <ul class="js-top-list list-unstyled d-flex flex-column gap-2 order-list mt-3">
+
+      </ul>
+      <p class="fw-bold mb-0">Qo`shimchalar:</p>
+      <ul class="js-add-list list-unstyled mt-3 order-">
+
+      </ul>
+
+      <button class="btn btn-success" type="submit" form="form-id">Buyurtma berish</button>
+
+    </div> 
+
+
+
+
+</div>
+
+</div>
+</div>
+  <script src="./bootstrap/js/bootstrap.js"></script>
+  <script src="./js/script.js"></script>
+</body>
+</html>

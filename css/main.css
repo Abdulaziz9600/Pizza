@@ -1,0 +1,87 @@
+body {
+background-image: url(../img/pepperoni-pizza-with-chili-rosemary-2849085-removebg-preview.png);
+background-size: 800px 500px;
+background-position: calc();
+background-repeat:no-repeat ;
+background-color: yellow;
+background-position: calc(50% - 279px), calc(50% + 500px);
+}
+
+.form-check-input {
+display: none;
+}
+.radio-label {
+  width: 100px;
+  height: 100px;
+  transition: all 0.2s ease;
+  border: 2px solid yellow;
+  background-color: aliceblue;
+  border-radius: 50%;
+  padding-top: 36px;
+  padding-left: 30px;
+  margin: 10px;
+}
+
+
+
+.radio-label:active {
+  background-color: rgb(15, 235, 30);
+}
+
+
+.pizza-size-wrapper {
+  margin-top: 20px;
+}
+
+.pizza-size-result {
+  font-size: 17px;
+  font-weight: 600;
+  margin: 0;
+  margin-top: 20px;
+  margin-left: 10px
+  
+}
+
+
+.add-vegetables-title {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+  margin: 0;
+  margin-top: 20px;
+}
+
+.add-vegetables-list {
+  width: 100%;
+  max-width: 450px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 15px;
+}
+
+.additioanl-list {
+  width: 100%;
+  max-width: 330px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.addVegetables-item {
+  list-style-type: none;
+  width: 190px;
+  padding: 5px;
+  border-radius: 5px;
+}
+.addVegetables-item{
+  padding-top: 10px;
+}
+.input-label-wrapper{
+  width: 200px;
+}
+.order-list{
+  height: 180px;
+}
+.addtionals-item{
+  padding-top: 10px;
+}
